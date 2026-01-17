@@ -5,7 +5,7 @@
 
 // Approach :
 // Since we need to add sum from root to leaf, we need to pass current root value to child as currSum. At the child,
-// do the addition and pass it to next child. At the leaf node, return sum of the value passed  by the parent and
+// do the addition and pass it to next child. At the leaf node, return sum of the value passed by the parent and
 // the current value.
 public class PathSum {
     public int sumNumbers(TreeNode root) {

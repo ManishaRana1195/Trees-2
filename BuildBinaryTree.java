@@ -7,7 +7,7 @@
 // Approach
 // From postorder array we can identify the root node index. From the inorder array we can find the start and end index of
 // left subtree. Similarly, the start and end index of right subtree. Once a root node is created, we can move to the
-// next root by incrementing index.
+// next root by decrementing index.
 
 // To find the start and end indices of the subtrees in constant time, we can store them in a map.
 import java.util.HashMap;
